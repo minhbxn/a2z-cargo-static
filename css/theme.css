@@ -1119,8 +1119,34 @@ a:hover {
     background-color: #fcd804;
 }
 
-@media (min-width:1400px) {
+@media (min-width:1400px) and (max-width: 1600px) {
+    .home-carousel-wrap .carousel-inner>.item .desc {
+        top: 70px;
+    }
+
+    .home-carousel-wrap .carousel-inner>.item .desc h4 {
+        font-size: 25px;
+    }
+
+    .home-carousel-wrap .carousel-inner>.item .desc h3 {
+        margin-top: 25px;
+        font-size: 38px;
+    }
+
+    .slide-bill-search-form {
+        margin-top: 35px;
+    }
+
+    .slide-bill-search-form p {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    .slide-bill-search-form form {
+        margin-top: 20px;
+    }
 }
+
 
 @media (min-width:1200px) and (max-width:1400px) {
     .home-carousel-wrap .carousel-inner>.item .desc {
