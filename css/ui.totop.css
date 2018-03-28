@@ -1,0 +1,4 @@
+#toTop{display:none;text-decoration:none;position:fixed;bottom:100px;right:10px;overflow:hidden;width:51px;height:51px;border:none;text-indent:100%;background:url(../image/ui.totop.png) no-repeat left top;z-index: 25}
+#toTopHover{background:url(../image/ui.totop.png) no-repeat left -51px;width:51px;height:51px;display:block;overflow:hidden;float:left;opacity:0.8!important;-moz-opacity:0.8!important;filter:alpha(opacity=0.8)!important;}
+#toTop:active,#toTop:focus{outline:none;}
+#toTopHover:hover{background-position: left 0;}
