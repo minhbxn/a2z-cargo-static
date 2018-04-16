@@ -1106,6 +1106,7 @@ a:hover {
 }
 
 .slide-bill-search-form form button {
+    display: block;
     width: 50px;
     height: 40px;
     float: left;
@@ -1113,6 +1114,7 @@ a:hover {
     background-color: #f8f023;
     border: 1px solid #f8f023;
     font-size: 20px;
+    margin-left: 5px;
 }
 
 .slide-bill-search-form form button:hover {
@@ -1442,12 +1444,12 @@ a:hover {
     left: 30px;
     margin: 0;
     padding: 0 10px;
-    color: #333;
+    color: #fff;
     font-size: 18px;
     height: 36px;
     line-height: 36px;
     overflow: hidden;
-    background: #f8f023;
+    background: #d07817;
     float: left;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1455,7 +1457,7 @@ a:hover {
 }
 
 .home-services .item > div.wrap p span {
-    color: #f8f023;
+    color: #d07817;
     font-weight: bold;
 }
 
@@ -1837,8 +1839,8 @@ a:hover {
 }
 
 .bill-of-lading form div.button button:hover {
-    background: #f8f023;
-    color: #333;
+    background: #d07817;
+    color: #fff;
 }
 
 .bill-of-lading form fieldset.end {
@@ -1854,8 +1856,8 @@ a:hover {
     padding-right: 30px;
     border: 0px;
     font-size: 18px;
-    background: #f8f023;
-    color: #333;
+    background: #d07817;
+    color: #fff;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -1996,7 +1998,8 @@ a:hover {
     border: 0;
     padding: 5px 15px;
     margin-top: 20px;
-    background: #f8f023;
+    background: #d07817;
+    color: #fff;
 }
 
 .home-bill-search-form.bill-search-form {
@@ -2459,7 +2462,8 @@ footer ul li a {
     border: 0px;
     padding: 6px 25px;
     margin: 15px 15px 0 0;
-    background: #f8f023;
+    background: #d07817;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -2788,4 +2792,46 @@ footer ul li a {
         width: auto;
     }
 
+}
+
+
+/*side bar*/
+#sidebar{
+position: fixed;
+top: 200px;
+right: 10px;
+z-index: 2;
+}
+#sidebar a{
+display: block;
+clear: both;
+width: 60px;
+height: 60px;
+text-align: left;
+margin-top: 10px;
+/*text-indent: -9999px;
+background: url(../image/bg-social.png) no-repeat;*/
+}
+/*#sidebar a.facebook{
+background-position: 0px 0px;
+}
+#sidebar a.hotline{
+background-position: 0px -87px;
+}
+#sidebar a.exchange-rate{
+background-position: 0px -174px;
+}*/
+
+@media (max-width: 992px){
+    #sidebar a{
+        width: 46px;
+        height: 46px;
+    }
+}
+
+@media (max-width: 768px){
+    #sidebar a{
+        width: 36px;
+        height: 36px;
+    }
 }

@@ -45,6 +45,10 @@ $(document).ready(function(){
         }
         tthis.text(text);
         $(target).toggleClass('hide');
+        
+        $('html, body').animate({
+            scrollTop: $(target).offset().top
+        }, 1000);
 
         return false;
     });
